@@ -24,7 +24,7 @@ function SeriesList(props) {
             <h5 className="card-title">{name && name}</h5>
             <p className="card-text">{summary && summary.substring(0,150).replace(/<[^>]+>/g, " ")}...</p>
             <p className="card-text"><small className="text-body-secondary">{language && language}  || [ {genres && genres.map(g => g+' ')}]<br />Released At :{premiered && premiered} || Rating : {rating && Math.round(rating.average)} </small></p>
-            <a href ={officialSite && officialSite} rel="noreferrer" target = "_blank" className="btn btn-sm btn-primary mx-2">Explore</a>
+            <a href ={officialSite ? officialSite : alert("No officail site is available")} rel="noreferrer" target = "_blank" className="btn btn-sm btn-primary mx-2">Explore</a>
             <button onClick={addSeriesHandler} className="btn btn-sm btn-primary">Add TO Wishlist</button>
           </div>
         </div>
