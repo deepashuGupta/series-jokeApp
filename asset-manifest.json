@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/series-jokeApp/static/js/main.80927f6a.js",
+    "main.js": "/series-jokeApp/static/js/main.c5293a05.js",
     "static/js/787.6f0453fb.chunk.js": "/series-jokeApp/static/js/787.6f0453fb.chunk.js",
     "index.html": "/series-jokeApp/index.html",
-    "main.80927f6a.js.map": "/series-jokeApp/static/js/main.80927f6a.js.map",
+    "main.c5293a05.js.map": "/series-jokeApp/static/js/main.c5293a05.js.map",
     "787.6f0453fb.chunk.js.map": "/series-jokeApp/static/js/787.6f0453fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.80927f6a.js"
+    "static/js/main.c5293a05.js"
   ]
 }
